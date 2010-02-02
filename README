@@ -4,12 +4,12 @@ KDE Akonadi runtime and tools
 
 Runtime requirements:
   cygwin-1.7.1-1
-  libakonadiprotocolinternals1-1.1.2-1
+  libakonadiprotocolinternals1-1.2.1-1
   libgcc1-4.3.4-3
-  libkdecore5-4.3.4-1
-  libknotificationitem1_1-4.3.4-1
-  libkpim4-4.3.4-1
-  libnepomuk4-4.3.4-1
+  libkdecore5-4.3.5-1
+  libknotificationitem1_1-4.3.5-1
+  libkpim4-4.3.5-1
+  libnepomuk4-4.3.5-1
   libQt3Support4-4.5.3-2
   libQtCore4-4.5.3-2
   libQtDBus4-4.5.3-2
@@ -19,7 +19,7 @@ Runtime requirements:
   libQtXml4-4.5.3-2
   libstdc++6-4.3.4-3
   libstrigiqtdbusclient0-0.7.0-1
-  libxml2-2.7.4-1
+  libxml2-2.7.6-1
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -36,24 +36,27 @@ Canonical website:
   http://www.kde.org/
 
 Canonical download:
-  ftp://ftp.kde.org/pub/kde/stable/4.3.4/
+  ftp://ftp.kde.org/pub/kde/stable/4.3.5/
 
 -------------------------------------------
 
 Build instructions:
-  unpack kdepim-runtime-4.3.4-X-src.tar.bz2
+  unpack kdepim-runtime-4.3.5-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./kdepim-runtime-4.3.4-X.cygport all
+  cygport ./kdepim-runtime-4.3.5-X.cygport all
 
 This will create:
-  /usr/src/kdepim-runtime-4.3.4-X-src.tar.bz2
-  /usr/src/kdepim-runtime-4.3.4-X.tar.bz2
+  /usr/src/kdepim-runtime-4.3.5-X-src.tar.bz2
+  /usr/src/kdepim-runtime-4.3.5-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 4.3.5-1 -----
+Version bump.
 
 ----- version 4.3.4-1 -----
 Initial release for Cygwin 1.7.
