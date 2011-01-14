@@ -2,4 +2,4 @@ inherit kde4
 
 
 kdepim_runtime_CONTENTS="etc/ usr/bin/ usr/lib/kde4/*.dll usr/share/"
-PKG_IGNORE="usr/lib/kde4/lib/"
+PKG_IGNORE="usr/lib/lib*"
