@@ -1,7 +1,0 @@
-inherit kde4
-
-
-PATCH_URI="4.8.3-cmake-install.patch"
-
-kdepim_runtime_CONTENTS="etc/ usr/bin/ usr/lib/kde4/ usr/share/"
-PKG_IGNORE="usr/lib/lib*"

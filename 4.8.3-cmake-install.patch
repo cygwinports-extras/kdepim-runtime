@@ -1,9 +1,0 @@
---- origsrc/kdepim-runtime-4.8.3/agents/nepomukfeeder/dms-copy/CMakeLists.txt	2012-04-29 15:39:36.039069700 -0500
-+++ src/kdepim-runtime-4.8.3/agents/nepomukfeeder/dms-copy/CMakeLists.txt	2012-05-17 01:39:02.350198800 -0500
-@@ -30,5 +30,4 @@ target_link_libraries(kdepim-runtime-dms
-   ${NEPOMUK_LIBRARIES}
-   ${KDE4_KDECORE_LIBS})
- 
--install(TARGETS kdepim-runtime-dms-copy
--   DESTINATION ${LIB_INSTALL_DIR})
-+install(TARGETS kdepim-runtime-dms-copy ${INSTALL_TARGETS_DEFAULT_ARGS})
