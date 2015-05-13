@@ -1,13 +1,13 @@
 inherit kde4
 
 NAME="kdepim-runtime"
-VERSION=4.14.3
+VERSION=4.14.7
 RELEASE=1
 CATEGORY="KDE"
 SUMMARY="KDE Akonadi runtime and tools"
 DESCRIPTION="KDE Akonadi runtime and tools"
 REQUIRES="akonadi"
-
+SRC_URI="mirror://kde/stable/applications/15.04.0/src/${NAME}-${VERSION}.tar.xz"
 PATCH_URI="
 	http://pkgs.fedoraproject.org/cgit/kdepim-runtime.git/plain/kdepim-runtime-4.4.93-show_akonadi_kcm.patch?h=f21
 "
